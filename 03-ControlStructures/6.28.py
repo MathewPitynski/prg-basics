@@ -1,0 +1,7 @@
+a = 0
+b = 1
+for _ in range(20):
+    print(a, end=" ")
+    next_number = a + b
+    a = b
+    b = next_number
